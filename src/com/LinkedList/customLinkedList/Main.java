@@ -75,20 +75,29 @@ public class Main {
 
 
 
-        CLL list = new CLL();
-        list.insert(33);
-        list.insert(60);
-        list.insert(10);
-        list.insert(2);
+//        CLL list = new CLL();
+//        list.insert(33);
+//        list.insert(60);
+//        list.insert(10);
+//        list.insert(2);
+//        list.display();
+//        list.size();
+//        list.delete(60);
+//        list.display();
+//        list.delete(33);
+//        list.delete(2);
+//        list.display();
+//        list.delete(10);
+//        list.delete(10);
+//        list.display();
+
+        LL list = new LL();
+        list.insertFirst(30);
+        list.insertLast(32);
+        list.insertLast(42);
+        list.insertLast(52);
         list.display();
-        list.size();
-        list.delete(60);
-        list.display();
-        list.delete(33);
-        list.delete(2);
-        list.display();
-        list.delete(10);
-        list.delete(10);
+        list.insertUsingRecursion(55,0);
         list.display();
 
 
